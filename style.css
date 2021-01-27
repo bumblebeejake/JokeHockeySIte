@@ -1,0 +1,32 @@
+body{
+	background-color: #EEEEEE;
+}
+
+#NavBar{
+		background-color: gray;
+		color: white;
+		width: 75%;
+}
+#NavBar td{
+	font-size: 40px;
+	text-align: center;
+}
+
+#NavBar a:visited{
+	text-decoration: underline;
+	color: white;
+}
+
+#NavBar a:link{
+	text-decoration: underline;
+	color: white;
+}
+#HoursOfOps {
+	text-align: center;
+	padding: 5px;
+	border: solid black 1px;
+	font-size: 18px;
+}
+#HoursOfOps th, td{
+	padding: 5px;
+}
