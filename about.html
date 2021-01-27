@@ -28,4 +28,18 @@ The Most Broken Hockey Equipment For Outrageous Prices"</p>
 <br>
 </center>
 </body>
+	<script language="JavaScript">
+	const oldTitle = document.title
+	
+	const task = async () => {
+		while(true){
+			document.title = oldTitle;
+			await new Promise(r => setTimeout(r, 5000));
+			document.title = "Super Hockey Sticks";
+			await new Promise(r => setTimeout(r, 5000));
+		}
+	}
+task();
+	
+</script>
 </html>
